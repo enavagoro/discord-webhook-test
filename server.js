@@ -1,9 +1,9 @@
 const express = require('express');
 const app = express();
 const port = 3000;
-const Discord = require('discord.js');
+// const Discord = require('discord.js');
 
-const webhook = new Discord.WebhookClient({url: ''});
+// const webhook = new Discord.WebhookClient({url: ''});
 
 app.use(express.json());
 
